@@ -13,7 +13,7 @@ npm install
 ```bash
 npm run server
 ```
-4. Leave that server running and open another terminal in the **swestat** folder.
+4. Leave that terminal server running and open another terminal in the **swestat** folder.
 5. Run the following commands in the terminal:
 ```bash
 npm install
