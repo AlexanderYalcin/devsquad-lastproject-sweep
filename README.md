@@ -1,4 +1,4 @@
-# DevSquad's Last Project at **</Salt>** Sweep 
+# DevSquad's Last Project at \</Salt\> Sweep 
 
 Sweep is a app that visualizes data from SCB. The time allowed to create this app was two weeks so it's not that clean, but it works. Multiple categories could've been added but we ran out of time.
 
