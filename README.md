@@ -20,6 +20,6 @@ npm install
 ```
 6. 
 ```bash
-npm run server
+npm start
 ```
 7. Done! The app should now be viewable on localhost:3000
