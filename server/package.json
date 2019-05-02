@@ -1,0 +1,28 @@
+{
+  "name": "statistics-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development",
+    "start": "webpack --mode=development --watch",
+    "server": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "encoding": "^0.1.12",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "d3": "^5.9.2",
+    "nodemon": "^1.18.10",
+    "nodemon-webpack-plugin": "^4.0.8",
+    "plotly.js-dist": "^1.45.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<script src="http://d3js.org/d3.v3.js"></script>
+<script src="http://d3js.org/topojson.v1.js"></script>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+svg, body {
+	background-color: steelblue;
+}
+svg {
+	width: 360px;
+	height: 600px;
+	margin: 0 auto;
+}
+circle {
+  fill: yellowgreen;
+  stroke: olivedrab;
+}
+</style>
+<body>
+<div id="container"></div>
+<script>
+var width = 360,
+	height = 600;
+var projection = d3.geo.mercator().scale(100000).translate([-160,1700]);
+var path = d3.geo.path().projection(projection);
+var svg = d3.select("#container").append("svg");
+d3.json("http://localhost:8888/kommuner.geo.json", function(error, data) {
+
+});
+</script>
+</body>
+</html>

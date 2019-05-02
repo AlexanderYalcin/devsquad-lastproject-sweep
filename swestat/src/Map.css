@@ -1,0 +1,132 @@
+path{
+  stroke:#999999;
+  stroke-width: 0px;
+  pointer-events:all;
+  z-index: 2;
+}
+path:hover{
+  fill: yellow;
+  stroke:#999999;
+  z-index: 99;
+}
+
+.outer-map {
+  /* height: 90vh; */
+  width: 500px;
+  /* margin: 0 auto; */
+}
+
+.map-container {
+  /* float: left; */
+  /* position: absolute; */
+  height: 90vh;
+  /* margin-bottom: 20px; */
+  /* width: 500px; */
+  /* margin-left: 500px; */
+  /* margin-top: 50px;s */
+
+}
+
+
+#county-map {
+  float: left;
+  /* height: 90vh; */
+  /* width: auto; */
+  display: flex; 
+
+}
+
+#root > div > div > main {
+  padding: 0px;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.color-bar {
+  /* height: 500px; */
+  float: left;
+  height: 80vh;
+}
+
+#county-map svg {
+  /* margin-top: 20px; */
+  /* margin-left: 100px; */
+  /* display: inline-block; */
+  /* position: relative; */
+  width: auto;
+  height: 85vh;
+  /* padding-bottom: 100%; */
+  vertical-align: top;
+  overflow: hidden;
+  margin-left: 200px;
+}
+
+.map-responsive {
+  display: inline-block;
+  position: absolute;
+  /* top: 10px; */
+  left: 0;
+  padding: 0px;
+}
+
+/* Drawer topbar */
+#root > div > div > header > div{
+  background-color: #707070;
+}
+/* Drawer sidebar */
+#root > div > div > div > div{
+  /* background-color: rgb(214, 255, 195); */
+  background-color: #9e9e9e;
+}
+/* Drawer content window */
+#root > div > div > main{
+  background-color: #121212;
+}
+
+.icons  {
+  width: 50px;
+  height: 50px;
+  margin-left: -5px;
+}
+
+#sweep {
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+.footer {
+  margin-left: 160px;
+  margin-top: -50px;
+}
+
+.footer p {
+  text-align: center;
+  margin-top: -50px;
+}
+
+#root > div > div > main > div.footer > div {
+  width: 40vh;
+  margin-top: 20px;
+}
+
+div.tooltip { 
+  position: absolute;     
+  text-align: center;     
+  /* width: auto;         */
+  height: auto;         
+  padding: 2px;       
+  font: 16px sans-serif;    
+  background: #fff; 
+  border: 0px;        
+  pointer-events: none;     
+  color: black;
+  margin-top: -5px;
+  border-radius: 3px;
+}
+
+
+#unit {
+  padding-top: 15px;
+}

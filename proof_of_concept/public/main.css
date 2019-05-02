@@ -1,0 +1,25 @@
+path {
+  stroke: #999999;
+  stroke-width: 0px;
+  pointer-events: all;
+  z-index: 2;
+}
+
+path:hover {
+  fill: #999;
+  stroke: #999999;
+  z-index: 99;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+}
+
+.svg-container {
+  float: right;
+  width: auto;
+}
+#tester {
+  margin-top: 350px;
+}
