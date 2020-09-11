@@ -15,7 +15,7 @@
     "cors": "^2.8.5",
     "encoding": "^0.1.12",
     "express": "^4.16.4",
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "d3": "^5.9.2",
