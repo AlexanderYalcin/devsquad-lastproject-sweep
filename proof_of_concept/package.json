@@ -18,7 +18,7 @@
     "node-fetch": "^2.3.0"
   },
   "devDependencies": {
-    "d3": "^5.9.2",
+    "d3": "^7.6.1",
     "nodemon": "^1.18.10",
     "nodemon-webpack-plugin": "^4.0.8",
     "plotly.js-dist": "^1.45.3",
